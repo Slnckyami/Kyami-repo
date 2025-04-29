@@ -7,7 +7,7 @@
 }
 
 body {
-    color: #fff;
+    color: #ededed;
     background: #081b29;
 }
 
@@ -49,14 +49,14 @@ header {
 }
 
 .navbar a:hover {
-    color: #FF1493;
+    color: #0ef;
 }
 
 .home {
     position: relative;
     margin-top: 16px;
     width: 100%;
-    background: url('wallpaper.jpg') no-repeat center center;
+    background: url('thumb.jpg') no-repeat center center;
     height: 100vh;
     background-size: cover;
     display: flex;
@@ -103,10 +103,10 @@ header {
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #FF1493;
+    border: 2px solid #0ef;
     border-radius: 50%;
     font-size: 20px;
-    color: #FF1493;
+    color: #0ef;
     text-decoration: none;
     transition: .5s ease;
     opacity: 0;
@@ -115,14 +115,14 @@ header {
     margin: 30px 15px 30px 0;
 }
 .home-sci a:hover{
-    background: #FF1493;
+    background: #0ef;
     color: #081b29;
-    box-shadow: 0 0 20px #FF1493;
+    box-shadow: 0 0 20px #0ef;
 }
 .btn-box{
     display: inline-block;
     padding: 12px 28px;
-    background: #FF1493;
+    background: #0ef;
     border-radius: 40px;
     font-size: 16px;
     color: #081b29;
@@ -132,13 +132,13 @@ header {
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 5px #FF1493,
-    0 0 25px #FF1493;
+    box-shadow: 0 0 5px #0ef,
+    0 0 25px #0ef;
 }
 .btn-box:hover{
-    box-shadow: 0 0 5px DeepPink,
-    0 0 25px DeepPink, 0 0 50px DeepPink,
-    0 0 100px DeepPink, 0 0 200px DeepPink;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
 
 }
 
@@ -160,7 +160,7 @@ header {
 
 }
 .about-text h2 span{
-    color: #FF1493;
+    color: #0ef;
 }
 .about-text h4{
     font-size: 20px;
@@ -187,7 +187,7 @@ header {
     padding-bottom: 70px;
 }
 .sub-title span{
-    color: #FF1493;
+    color: #0ef;
 }
 .container{
     padding: 90px;
@@ -230,7 +230,7 @@ header {
 .read {
     display: inline-block;
     padding: 12px 28px;
-    background: #FF1493;
+    background: #0ef;
     border-radius: 40px;
     font-size: 16px;
     color: #081b29;
@@ -240,13 +240,13 @@ header {
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 5px #FF1493,
-    0 0 25px #FF1493;
+    box-shadow: 0 0 5px #0ef,
+    0 0 25px #0ef;
 }
 .read:hover {
-    box-shadow: 0 0 5px DeepPink,
-    0 0 25px DeepPink, 0 0 50px DeepPink,
-    0 0 100px DeepPink, 0 0 200px DeepPink
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan
 }
 
 .services-list div:hover{
@@ -311,7 +311,7 @@ section{
 
 .Technical-bars .bar .progress-line span {
     height: 100%;
-    background-color: #FF1493;
+    background-color: #0ef;
     position: absolute;
     border-radius: 10px;
     animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
@@ -431,7 +431,7 @@ section{
 }
 .path {
     stroke-width: 10;
-    stroke: #FF1493;
+    stroke: #0ef;
     fill: transparent;
     stroke-dasharray: 502;
     stroke-dashoffset: 502;
@@ -549,7 +549,7 @@ section{
     padding-bottom: 50px;
 }
 .main-text h2 span{
-    color: #FF1493;
+    color: #0ef;
 }
 
 .portfolio-content {
@@ -583,7 +583,7 @@ section{
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba( 0,0,0,0.1),#FF1493);
+    background: linear-gradient(rgba( 0,0,0,0.1),#0ef);
     position: absolute;
     border-radius: 8px;
     left: 0;
@@ -648,7 +648,7 @@ section{
 
 }
 .contact-text h2 span{
-    color: #FF1493;
+    color: #0ef;
 }
 .contact-text h4{
     margin: 15px 0;
@@ -676,7 +676,7 @@ section{
 }
 .contact-list i{
     display: inline-block;
-    color: #FF1493;
+    color: #0ef;
     font-size: 20px;
     font-weight: 600;
     transition: all .40s ease;
@@ -684,7 +684,7 @@ section{
 }
 .contact-list li a:hover{
     transform: scale(1.01) translateY(-5px);
-    color: #FF1493;
+    color: #0ef;
 }
 .contact-icons i{
     display: inline-flex;
@@ -693,10 +693,10 @@ section{
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #FF1493;
+    border: 2px solid #0ef;
     border-radius: 50%;
     font-size: 20px;
-    color: #FF1493;
+    color: #0ef;
     text-decoration: none;
     margin: 30px 15px 30px 0;
     transition: .5s ease;
@@ -705,9 +705,9 @@ section{
     animation-delay: calc(.2s * var(--i));
 }
 .contact-icons i:hover{
-    background: #FF1493;
+    background: #0ef;
     color: #000;
-    box-shadow: 0 0 20px #FF1493;
+    box-shadow: 0 0 20px #0ef;
 }
 .contact-form form{
     position: relative;
@@ -734,7 +734,7 @@ section{
 .contact-form form .send{
     display: inline-block;
     padding: 14px 60px;
-    background: #FF1493;
+    background: #0ef;
     border-radius: 40px;
     font-size: 16px;
     color: #081b29;
@@ -744,13 +744,13 @@ section{
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 5px #FF1493,
-    0 0 25px #FF1493;
+    box-shadow: 0 0 5px #0ef,
+    0 0 25px #0ef;
 }
 .contact-form form .send:hover {
-    box-shadow: 0 0 5px DeepPink,
-    0 0 25px DeepPink, 0 0 50px DeepPink,
-    0 0 100px DeepPink, 0 0 200px DeepPink;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
 }
 @media (max-width: 768px) {
     .contact {
@@ -782,7 +782,7 @@ section{
 }
 .top i{
     color: #000;
-    background: #FF1493;
+    background: #0ef;
     padding: 10px;
     border-radius: 0.5rem;
 }
