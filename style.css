@@ -52,17 +52,11 @@ header {
     color: #0ef;
 }
 
-.home {
-    position: relative;
-    margin-top: 16px;
-    width: 100%;
-    background: url('https://files.catbox.moe/9bxyaz.mp4') no-repeat center center;
-    height: 100vh;
-    background-size: cover;
-    display: flex;
-    justify-content: left; /* Agar konten berada di sebelah kiri */
-    align-items: center; /* Agar konten berada di tengah secara vertikal */
-    padding: 70px 10% 0; /* Padding horizontal untuk memberi ruang di sisi kiri dan kanan */
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
 }
 
 .home-content {
