@@ -1,4 +1,4 @@
-* {
+eh* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,6 +26,8 @@ header {
 
 .logo {
     position: relative;
+    top: 8px;
+    left: 16px;
     font-size: 25px;
     color: #fff;
     text-decoration: none;
@@ -143,8 +145,8 @@ header {
     gap: 1.5rem;
 }
 .about-img img{
-    padding-bottom: 4%;
-    max-width: 630px;
+    padding-bottom: 20%;
+    max-width: auto;
     height: 500px;
     width: 100%;
     border-radius: 8px;
